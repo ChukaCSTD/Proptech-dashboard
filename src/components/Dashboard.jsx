@@ -20,18 +20,18 @@ const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep"];
 export default function Dashboard() {
   return (
     <main className="px-[54px] py-3 pb-5">
-      <h2 className="text-[20px] leading-none font-extrabold mb-[20px]">Welcome, Ahmed</h2>
+      <h2 className="text-[20px] leading-none font-bold mb-[20px]">Welcome, Ahmed</h2>
 
       <section className="grid grid-cols-1 xl:grid-cols-3 gap-[14px] items-stretch">
         <div className="xl:col-span-2 bg-white border border-[#d8dce2] rounded-[14px] overflow-hidden">
           <div className="px-4 py-[20px] border-b border-[#eceff3]">
             <div className="flex justify-between items-start">
               <div>
-                <h3 className="font-semibold text-[20px] leading-none">Sales Overview</h3>
+                <h3 className="font-bold text-[20px] leading-none">Sales Overview</h3>
                 <p className="text-[11px] font-medium text-gray-500 mt-[10px]">Showing overview Jan 2022 - Sep 2022</p>
               </div>
               <div className="flex flex-col pt-1 items-end gap-[20px]">
-                <button className="h-9.5 px-6.5 rounded-full border border-[#cfd5dc] text-[10px] font-semibold text-gray-700">
+                <button className="h-9.5 px-6.5 rounded-full border border-[#cfd5dc] text-[12px] font-medium text-gray-700">
                   View Transactions
                 </button>
                 <div className="flex justify-end gap-2">
@@ -102,7 +102,7 @@ export default function Dashboard() {
           <div className="bg-white rounded-[14px] border border-[#d8dce2] overflow-hidden flex-1">
             <div className="p-6 border-b border-[#eceff3] flex justify-between items-center">
               <div className="flex items-center gap-2">
-                <Building2 size={18} className="text-[#6366f1]" />
+                <Building2 size={20} className="text-[#6366f1]" />
                 <h4 className="font-semibold text-gray-700 text-[13px]">Listings Overview</h4>
               </div>
               <button className="text-[11px] text-[#4f46e5] font-semibold flex items-center gap-1">
@@ -128,7 +128,7 @@ export default function Dashboard() {
           <div className="bg-white rounded-[14px] border border-[#d8dce2] overflow-hidden flex-1">
             <div className="p-6 border-b border-[#eceff3] flex justify-between items-center">
               <div className="flex items-center gap-2">
-                <UserRound size={18} className="text-[#8b5cf6]" />
+                <UserRound size={20} className="text-[#8b5cf6]" />
                 <h4 className="font-semibold text-gray-700 text-[13px]">Users Overview</h4>
               </div>
               <button className="text-[11px] text-[#4f46e5] font-semibold flex items-center gap-1">

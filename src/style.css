@@ -1,7 +1,97 @@
 @import "tailwindcss";
 
-:root {
-  font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B Light Italic.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B Italic.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B Medium Italic.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B SemiBold Italic.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Euclid Circular B";
+  src: url("./assets/font/Euclid Circular B/Euclid Circular B Bold Italic.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+@theme {
+  --font-sans: "Euclid Circular B", ui-sans-serif, system-ui, sans-serif;
 }
 
 * {

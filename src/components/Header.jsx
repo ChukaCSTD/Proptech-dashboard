@@ -55,7 +55,7 @@ export default function Header() {
     <header className="bg-[#0f5c4a] text-white h-[70px] px-14 flex justify-between items-center">
       <div className="flex items-center gap-1">
         <span className="text-[24px] opacity-90">✶</span>
-        <h1 className="text-[20px] leading-none  tracking-[-0.02em]">Expert Listing</h1>
+        <h1 className="text-[26px] leading-none tracking-[-0.02em]">Expert Listing</h1>
       </div>
 
       <div className="flex items-center gap-3">
@@ -198,7 +198,7 @@ export default function Header() {
             aria-label="Dylan Frank"
             onClick={() => setIsProfileMenuOpen((prev) => !prev)}
             aria-expanded={isProfileMenuOpen}
-            className="cursor-pointer h-9 w-9 rounded-full bg-white text-[#0f5c4a] font-semibold flex items-center justify-center text-[17px]"
+            className="cursor-pointer h-9 w-9 rounded-full bg-white text-[#0f5c4a] flex items-center justify-center text-[20px]"
           >
             D
           </button>
@@ -225,7 +225,7 @@ export default function Header() {
                 D
               </div>
               <div className="leading-tight">
-                <p className="text-[#222] text-md font-semibold leading-loose">Dylan Frank</p>
+                <p className="text-[#222] text-md font-bold leading-loose mb-1">Dylan Frank</p>
                 <p className="text-[#8a8a8a] text-xs leading-tight">dylan96@mail.com</p>
               </div>
             </div>
