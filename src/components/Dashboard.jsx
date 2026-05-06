@@ -168,7 +168,7 @@ export default function Dashboard() {
         />
       </section>
 
-      <button className="fixed bottom-10 right-10 h-[52px] w-[52px] rounded-full bg-[#21252d] text-white flex items-center justify-center shadow-xl cursor-pointer">
+      <button className="fixed bottom-30 right-10 h-[52px] w-[52px] rounded-full bg-[#21252d] text-white flex items-center justify-center shadow-xl cursor-pointer">
         <MessagesSquare size={22} />
       </button>
     </main>

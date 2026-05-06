@@ -52,10 +52,10 @@ export default function Header() {
   const showProfileTooltip = activeTooltip === "Profile" && !isProfileMenuOpen;
 
   return (
-    <header className="bg-[#0f5c4a] text-white h-[58px] px-14 flex justify-between items-center">
-      <div className="flex items-center gap-2.5">
-        <span className="text-[15px] opacity-90">✶</span>
-        <h1 className="text-[20px] leading-none font-semibold tracking-[-0.02em]">Expert Listing</h1>
+    <header className="bg-[#0f5c4a] text-white h-[70px] px-14 flex justify-between items-center">
+      <div className="flex items-center gap-1">
+        <span className="text-[24px] opacity-90">✶</span>
+        <h1 className="text-[20px] leading-none  tracking-[-0.02em]">Expert Listing</h1>
       </div>
 
       <div className="flex items-center gap-3">
