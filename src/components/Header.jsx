@@ -198,7 +198,7 @@ export default function Header() {
             aria-label="Dylan Frank"
             onClick={() => setIsProfileMenuOpen((prev) => !prev)}
             aria-expanded={isProfileMenuOpen}
-            className="cursor-pointer h-9 w-9 rounded-full bg-white text-[#0f5c4a] flex items-center justify-center text-[20px]"
+            className="cursor-pointer h-9 w-9 rounded-full bg-white text-[#0f5c4a] flex items-center justify-center text-[20px] box-border border-2 border-transparent shadow-none transition-[border-color,box-shadow] duration-200 ease-out hover:border-[#0f5c4a] hover:shadow-[0_0_14px_rgba(15,92,74,0.38),0_0_28px_rgba(15,92,74,0.15)] focus-visible:outline-none focus-visible:border-[#0f5c4a] focus-visible:shadow-[0_0_14px_rgba(15,92,74,0.38),0_0_28px_rgba(15,92,74,0.15)]"
           >
             D
           </button>
