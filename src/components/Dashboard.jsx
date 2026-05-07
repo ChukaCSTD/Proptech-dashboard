@@ -112,15 +112,15 @@ export default function Dashboard() {
             <div className="grid grid-cols-3 p-6">
               <div>
                 <p className="text-[12px] text-gray-500">Total</p>
-                <p className="font-semibold text-2xl leading-none mt-2">1.8k</p>
+                <p className="font-semibold text-2xl leading-none mt-4">1.8k</p>
               </div>
               <div>
                 <p className="text-[12px] text-gray-500">Active</p>
-                <p className="font-semibold text-2xl leading-none mt-2">80</p>
+                <p className="font-semibold text-2xl leading-none mt-4">80</p>
               </div>
               <div>
                 <p className="text-[12px] text-gray-500">Archived</p>
-                <p className="font-semibold text-2xl leading-none mt-2">1k</p>
+                <p className="font-semibold text-2xl leading-none mt-4">1k</p>
               </div>
             </div>
           </div>
@@ -138,15 +138,15 @@ export default function Dashboard() {
             <div className="grid grid-cols-3 p-6">
               <div>
                 <p className="text-[12px] text-gray-500">Total</p>
-                <p className="font-semibold text-2xl leading-none mt-2">20.7k</p>
+                <p className="font-semibold text-2xl leading-none mt-4">20.7k</p>
               </div>
               <div>
                 <p className="text-[12px] text-gray-500">Riders</p>
-                <p className="font-semibold text-2xl leading-none mt-2">8.5k</p>
+                <p className="font-semibold text-2xl leading-none mt-4">8.5k</p>
               </div>
               <div>
                 <p className="text-[12px] text-gray-500">Subscribers</p>
-                <p className="font-semibold text-2xl leading-none mt-2">7.5k</p>
+                <p className="font-semibold text-2xl leading-none mt-4">7.5k</p>
               </div>
             </div>
           </div>
